@@ -40,6 +40,7 @@ ul{
   list-style: none;
 }
 ul li{
+  position: relative;
   background-color: white;
   color: black;
   width: 78%;
@@ -47,8 +48,9 @@ ul li{
   margin-right: 50px;
   display: flex;
   justify-content: space-between;
-  padding: 5px 17px;
+  padding: 10px 17px;
   margin-top: 10px;
+  height: 20px;
 }
 ul span{
   background-color: black;
@@ -56,6 +58,8 @@ ul span{
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 4px;
+  position: absolute;
+  right: 10px;
 }
 .box{
   height: 50vh;
