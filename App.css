@@ -1,0 +1,64 @@
+
+.cont{
+  width: 90%;
+  background-color: black;
+  margin: auto;
+  padding: 40px 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  min-height: 80vh;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+  width: 100%;display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  width: 57%;
+  height: 30px;
+  border: none;
+  padding: 5px 17px;
+}
+button{
+  width: 20%;
+  margin: 0px 8px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+}
+ul li{
+  background-color: white;
+  color: black;
+  width: 78%;
+  align-items: center;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 17px;
+  margin-top: 10px;
+}
+ul span{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.box{
+  height: 50vh;
+  width: 100%;
+  background-color: red;
+}
